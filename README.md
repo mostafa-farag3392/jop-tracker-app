@@ -123,7 +123,7 @@ job-tracker-app/
 
 ## 🌐 Live Demo
 
-🔗 **[View Live Demo](https://your-netlify-url.netlify.app)**
+🔗 **[View Live Demo](https://jop-tracker-app.netlify.app/)**
 
 ## 🔧 Configuration
 
