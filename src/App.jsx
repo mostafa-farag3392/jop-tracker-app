@@ -10,13 +10,15 @@ const App = () => {
   return (
     <JobProvider>
       <Router>
-        <div className="min-h-screen bg-gray-50">
+        <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100">
           <Header />
-          <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/add" element={<AddJob />} />
-            <Route path="/job/:id" element={<JobDetails />} />
-          </Routes>
+          <main>
+            <Routes>
+              <Route path="/" element={<Dashboard />} />
+              <Route path="/add" element={<AddJob />} />
+              <Route path="/job/:id" element={<JobDetails />} />
+            </Routes>
+          </main>
         </div>
       </Router>
     </JobProvider>
